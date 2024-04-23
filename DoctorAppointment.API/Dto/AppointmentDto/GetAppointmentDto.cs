@@ -1,0 +1,9 @@
+﻿namespace DoctorAppointment.API.Dto.AppointmentDto
+{
+    public class GetAppointmentDto
+    {
+        public string PatientName { get; set; }
+        public string Date { get; set; }
+        public int DoctorId { get; set; }
+    }
+}
